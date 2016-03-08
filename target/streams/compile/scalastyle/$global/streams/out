@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/knoldus/PlayAssignment2/Student-Slick-Demo/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala[0m
+[0m[[33mwarn[0m] [0m/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala:24:15: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0mdebug[0m] [0mend file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala[0m
+[0m[[33mwarn[0m] [0m/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala:23:17: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0mdebug[0m] [0mend file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala[0m
+[0m[[33mwarn[0m] [0m/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala:26:16: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0mdebug[0m] [0mend file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala[0m
+[0m[[0minfo[0m] [0mProcessed 5 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 3 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 15 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/knoldus/PlayAssignment2/Student-Slick-Demo/target[0m

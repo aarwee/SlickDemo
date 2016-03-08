@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala">
+  <error column="16" line="26" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+ </file>
+ <file name="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala">
+  <error column="17" line="23" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+ </file>
+ <file name="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala">
+  <error column="15" line="24" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+ </file>
+</checkstyle>

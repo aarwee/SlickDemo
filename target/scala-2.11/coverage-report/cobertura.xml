@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.89" lines-covered="261" lines-valid="233" branches-covered="0" branches-valid="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1457417520676">
+    <sources>
+        <source>--source</source>
+        <source>/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala-2.11</source>
+        <source>/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala</source>
+        <source>/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/java</source>
+    </sources>
+    <packages>
+        <package name="com.knoldus.connection" line-rate="0.00" branch-rate="0.00" complexity="0">
+            <classes>
+                <class 
+                name="PostgresDB" filename="com/knoldus/connection/MyDbComponent.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.connection/PostgresDB/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="23" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                                <line number="23" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                        <line number="23" hits="0" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="MyDbComponent" filename="com/knoldus/connection/MyDbComponent.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.connection/MyDbComponent/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="13" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="13" hits="0" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+        <package name="com.knoldus.repo" line-rate="0.91" branch-rate="1.00" complexity="0">
+            <classes>
+                <class 
+                name="SubStudCrud" filename="com/knoldus/repo/SubjectStudentrepo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/SubStudCrud/getStudentSubject" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="76" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="76" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="77" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="76" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="76" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                                <line number="74" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudCrud/updateMapping" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="57" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudCrud/insertMapping" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="42" hits="1" branch="false"/>
+                                <line number="42" hits="1" branch="false"/>
+                                <line number="42" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudCrud/getAllMapping" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="63" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudCrud/deleteMapping" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="51" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudCrud/getByIdMapping" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                                <line number="68" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="42" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="57" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="76" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="42" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="51" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="76" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="63" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="77" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="42" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                        <line number="76" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="76" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="74" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="68" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="StudentDetails" filename="com/knoldus/repo/StudentRepo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/StudentDetails/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="22" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/StudentDetails/*" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="22" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="StudentCrud" filename="com/knoldus/repo/StudentRepo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/StudentCrud/getAllStudent" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="58" hits="1" branch="false"/>
+                                <line number="58" hits="1" branch="false"/>
+                                <line number="58" hits="1" branch="false"/>
+                                <line number="58" hits="1" branch="false"/>
+                                <line number="59" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/StudentCrud/deleteStudent" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/StudentCrud/getByIdStudent" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="65" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                                <line number="64" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/StudentCrud/updateStudent" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="54" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                                <line number="53" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/StudentCrud/insertStudent" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="58" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="58" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="58" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="65" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="54" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="58" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                        <line number="64" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="59" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="53" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="SubjectCrud" filename="com/knoldus/repo/SubjectRepo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/SubjectCrud/getById" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="70" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                                <line number="69" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubjectCrud/insert" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="38" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="38" hits="1" branch="false"/>
+                                <line number="38" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubjectCrud/update" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                                <line number="55" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubjectCrud/getAll" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="62" hits="1" branch="false"/>
+                                <line number="63" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubjectCrud/delete" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="38" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="70" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="38" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="62" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="63" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="55" hits="1" branch="false"/>
+                        <line number="38" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="69" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="SubjectDetails" filename="com/knoldus/repo/SubjectRepo.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/SubjectDetails/*" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubjectDetails/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="21" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="21" hits="1" branch="false"/>
+                                <line number="21" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="21" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="21" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="21" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="21" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="21" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="SubStudDetails" filename="com/knoldus/repo/SubjectStudentrepo.scala" line-rate="0.54" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus.repo/SubStudDetails/key2" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudDetails/*" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudDetails/key1" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                                <line number="22" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus.repo/SubStudDetails/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="22" hits="0" branch="false"/>
+                    </lines>
+</class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

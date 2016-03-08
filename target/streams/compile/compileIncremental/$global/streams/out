@@ -1,0 +1,84 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 837a422, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.1.1.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1206-jdbc4.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/bundles/slick-hikaricp_2.11-3.1.1.jar:/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.10.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar:/home/knoldus/.ivy2/cache/com.zaxxer/HikariCP-java6/bundles/HikariCP-java6-2.3.7.jar:/home/knoldus/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.1.1.jar[0m
+[0m[[0minfo[0m] [0m[info] Cleaning datadir [/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/scoverage-data][0m
+[0m[[0minfo[0m] [0m[info] Beginning coverage instrumentation[0m
+[0m[[0minfo[0m] [0m[info] Instrumentation completed [261 statements][0m
+[0m[[0minfo[0m] [0m[info] Wrote instrumentation file [/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/scoverage-data/scoverage.coverage.xml][0m
+[0m[[0minfo[0m] [0m[info] Will write measurement data to [/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/scoverage-data][0m
+[0m[[0mdebug[0m] [0mScala compilation took 8.718450499 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala by /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, getById, name, wait, *, copy$default$2, $asInstanceOf, getAll, insert, productArity, equals, foreignKey$default$5, Subject, indexes, SubjectRepo, asInstanceOf, tableConstraints, foreignKey, synchronized, $isInstanceOf, encodeRef, primaryKeys, tableNode, canEqual, SubjectCrud, tableProvider, productPrefix, foreignKeys, SubjectDetails, notifyAll, primaryKey, isInstanceOf, foreignKey$default$6, s_id, <init>, schemaName, create_*, subjectDetails, tableName, tableTag, ==, clone, toNode, collectFieldSymbols, sub_id, TableElementType, delete, $init$, copy, column, toString, index$default$3, !=, getClass, copy$default$1, update, tableIdentitySymbol, ne, O, eq, productIterator, ##, finalize, index, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala: Set(Subject, asInstanceOf, foreignKey, SubjectCrud, isInstanceOf, s_id, <init>, subjectDetails, ==, sub_id, delete, column, toString, update, ne, O, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala by /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, getByIdStudent, wait, *, copy$default$2, $asInstanceOf, email, productArity, equals, StudentDetails, StudentRepo, foreignKey$default$5, indexes, asInstanceOf, tableConstraints, foreignKey, StudentCrud, updateStudent, synchronized, $isInstanceOf, encodeRef, primaryKeys, tableNode, canEqual, tableProvider, productPrefix, foreignKeys, notifyAll, primaryKey, isInstanceOf, foreignKey$default$6, <init>, id, schemaName, create_*, studentDetails, tableName, tableTag, ==, clone, toNode, collectFieldSymbols, TableElementType, $init$, copy$default$3, copy, column, toString, index$default$3, !=, getClass, copy$default$1, deleteStudent, tableIdentitySymbol, ne, O, Student, insertStudent, eq, productIterator, ##, finalize, index, productElement, hashCode, getAllStudent.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala: Set(asInstanceOf, foreignKey, StudentCrud, isInstanceOf, <init>, id, studentDetails, ==, column, toString, ne, O, eq)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	SubStudCrud, getByIdMapping, notify, getById, name, getByIdStudent, getAllMapping, wait, *, copy$default$2, $asInstanceOf, insertMapping, email, getAll, insert, productArity, equals, StudentDetails, foreignKey$default$5, indexes, SubStud, asInstanceOf, tableConstraints, foreignKey, updateStudent, synchronized, $isInstanceOf, encodeRef, primaryKeys, tableNode, SubjectStudentrepo, canEqual, tableProvider, productPrefix, foreignKeys, SubjectDetails, notifyAll, primaryKey, sub_studDetails, key1, isInstanceOf, getStudentSubject, foreignKey$default$6, s_id, <init>, id, schemaName, create_*, studentDetails, subjectDetails, tableName, tableTag, deleteMapping, ==, key2, clone, toNode, collectFieldSymbols, sub_id, TableElementType, delete, $init$, copy$default$3, copy, SubStudDetails, column, toString, index$default$3, !=, getClass, copy$default$1, update, deleteStudent, tableIdentitySymbol, ne, stud_id, O, insertStudent, updateMapping, eq, productIterator, ##, finalize, index, productElement, hashCode, getAllStudent.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, db, $isInstanceOf, connectionPool, MyDbComponent, notifyAll, isInstanceOf, driver, ==, clone, $init$, toString, PostgresDB, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala by /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala, /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, db, $isInstanceOf, notifyAll, isInstanceOf, driver, ==, clone, toString, !=, getClass, DbComponent, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala: Set(asInstanceOf, db, isInstanceOf, driver, ==, toString, DbComponent, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala: Set(asInstanceOf, db, isInstanceOf, driver, ==, toString, DbComponent, ne, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala: Set(asInstanceOf, db, isInstanceOf, driver, ==, toString, DbComponent, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala: Set(db, driver, DbComponent)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

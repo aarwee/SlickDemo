@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mSubjectStudentRepoTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- valid insert[0m[0m
+[0m[[0minfo[0m] [0m[32m-  invalid delete subject[0m[0m
+[0m[[0minfo[0m] [0m[32m- valid delete subject[0m[0m
+[0m[[0minfo[0m] [0m[32m- valid update[0m[0m
+[0m[[0minfo[0m] [0m[32m- invalid update[0m[0m
+[0m[[0minfo[0m] [0m[32m- retrieve all[0m[0m
+[0m[[0minfo[0m] [0m[32m- retrieve by ID[0m[0m
+[0m[[0minfo[0m] [0m[32m- get subject[0m[0m
+[0m[[0minfo[0m] [0m[32m- invalid get subject[0m[0m

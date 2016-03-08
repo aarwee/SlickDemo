@@ -1,0 +1,966 @@
+<scoverage 
+statement-count="261" statements-invoked="233" statement-rate="89.27" branch-rate="100.00" version="1.0" timestamp="1457417520793">
+    <packages>
+        <package name="com.knoldus.connection" statement-count="6" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="PostgresDB" filename="com/knoldus/connection/MyDbComponent.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.connection/PostgresDB/&lt;none&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="367" end="377" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="357" end="357" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="357" end="357" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="357" end="357" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.connection" class="PostgresDB" class-type="Object" top-level-class="PostgresDB" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="348" end="378" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="MyDbComponent" filename="com/knoldus/connection/MyDbComponent.scala" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.connection/MyDbComponent/&lt;none&gt;" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.connection" class="MyDbComponent" class-type="Trait" top-level-class="MyDbComponent" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala" method="&lt;none&gt;" start="227" end="252" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.knoldus.repo" statement-count="255" statements-invoked="233" statement-rate="91.37">
+            <classes>
+                <class 
+                name="SubStudCrud" filename="com/knoldus/repo/SubjectStudentrepo.scala" statement-count="68" statements-invoked="68" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/getStudentSubject" statement-count="23" statements-invoked="23" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2052" end="2052" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2011" end="2027" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2021" end="2021" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2053" end="2072" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2077" end="2077" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2034" end="2048" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2066" end="2072" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="1988" end="2136" line="76" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2025" end="2025" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2055" end="2055" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2130" end="2130" line="76" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2013" end="2013" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2062" end="2062" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2163" end="2182" line="77" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2021" end="2021" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2077" end="2077" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2010" end="2010" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2130" end="2130" line="76" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2053" end="2061" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2011" end="2020" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="1988" end="2143" line="76" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2025" end="2027" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getStudentSubject" start="2062" end="2062" line="74" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/updateMapping" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1463" end="1489" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1443" end="1447" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1452" end="1452" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1511" end="1534" line="57" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1448" end="1448" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1420" end="1455" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1442" end="1442" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1445" end="1445" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1420" end="1490" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1448" end="1448" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1452" end="1454" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="updateMapping" start="1443" end="1454" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/insertMapping" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="insertMapping" start="1020" end="1035" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="insertMapping" start="1020" end="1065" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="insertMapping" start="1039" end="1065" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="insertMapping" start="1085" end="1125" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/getAllMapping" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getAllMapping" start="1630" end="1654" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getAllMapping" start="1681" end="1704" line="63" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getAllMapping" start="1648" end="1648" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getAllMapping" start="1648" end="1648" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getAllMapping" start="1630" end="1661" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/deleteMapping" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1250" end="1250" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1246" end="1246" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1240" end="1240" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1243" end="1243" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1280" end="1303" line="51" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1218" end="1260" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1241" end="1245" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1250" end="1252" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1241" end="1252" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1246" end="1246" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="deleteMapping" start="1218" end="1253" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudCrud/getByIdMapping" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1824" end="1824" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1799" end="1843" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1822" end="1826" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1837" end="1837" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1831" end="1833" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1870" end="1884" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1822" end="1833" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1837" end="1837" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1831" end="1831" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1799" end="1850" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1827" end="1827" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1827" end="1827" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudCrud" class-type="Trait" top-level-class="SubStudCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="getByIdMapping" start="1821" end="1821" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StudentDetails" filename="com/knoldus/repo/StudentRepo.scala" statement-count="28" statements-invoked="28" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentDetails/&lt;none&gt;" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="385" end="397" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="493" end="493" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="429" end="435" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="414" end="462" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="428" end="428" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="503" end="527" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="379" end="383" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="367" end="398" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="378" end="378" line="22" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="479" end="528" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="437" end="461" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="&lt;none&gt;" start="494" end="501" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentDetails/*" statement-count="16" statements-invoked="16" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="563" end="577" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="542" end="595" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="547" end="551" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="542" end="559" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="542" end="595" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="543" end="545" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="553" end="558" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="579" end="594" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentDetails" class-type="Class" top-level-class="StudentRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="*" start="560" end="560" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="StudentCrud" filename="com/knoldus/repo/StudentRepo.scala" statement-count="45" statements-invoked="45" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/StudentCrud/getAllStudent" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getAllStudent" start="1445" end="1445" line="58" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getAllStudent" start="1428" end="1458" line="58" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getAllStudent" start="1428" end="1451" line="58" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getAllStudent" start="1445" end="1445" line="58" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getAllStudent" start="1478" end="1501" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentCrud/deleteStudent" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1049" end="1049" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1045" end="1045" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1018" end="1052" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1039" end="1039" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1042" end="1042" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1079" end="1102" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1045" end="1045" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1040" end="1051" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1018" end="1059" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1040" end="1044" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="deleteStudent" start="1049" end="1051" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentCrud/getByIdStudent" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1596" end="1639" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1620" end="1620" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1623" end="1623" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1617" end="1617" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1618" end="1629" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1618" end="1622" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1633" end="1633" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1666" end="1680" line="65" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1627" end="1629" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1627" end="1627" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1596" end="1646" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1623" end="1623" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="getByIdStudent" start="1633" end="1633" line="64" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentCrud/updateStudent" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1244" end="1248" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1264" end="1286" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1253" end="1255" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1244" end="1255" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1249" end="1249" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1222" end="1256" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1253" end="1253" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1308" end="1331" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1222" end="1287" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1249" end="1249" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1243" end="1243" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="updateStudent" start="1246" end="1246" line="53" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/StudentCrud/insertStudent" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="insertStudent" start="841" end="855" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="insertStudent" start="897" end="931" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="insertStudent" start="841" end="880" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="StudentCrud" class-type="Trait" top-level-class="StudentCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala" method="insertStudent" start="858" end="880" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubjectCrud" filename="com/knoldus/repo/SubjectRepo.scala" statement-count="45" statements-invoked="45" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubjectCrud/getById" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1543" end="1543" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1535" end="1535" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1538" end="1538" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1553" end="1553" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1536" end="1542" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1547" end="1549" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1586" end="1600" line="70" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1536" end="1549" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1543" end="1543" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1553" end="1553" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1514" end="1566" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1547" end="1547" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getById" start="1514" end="1559" line="69" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectCrud/insert" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="insert" start="786" end="800" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="insert" start="842" end="882" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="insert" start="786" end="822" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="insert" start="804" end="822" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectCrud/update" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1189" end="1191" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1178" end="1191" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1200" end="1216" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1178" end="1184" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1156" end="1192" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1189" end="1189" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1238" end="1261" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1185" end="1185" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1185" end="1185" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1177" end="1177" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1156" end="1217" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="update" start="1180" end="1180" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectCrud/getAll" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getAll" start="1369" end="1369" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getAll" start="1352" end="1382" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getAll" start="1352" end="1375" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getAll" start="1369" end="1369" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="getAll" start="1402" end="1425" line="63" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectCrud/delete" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="998" end="998" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="969" end="1005" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="1002" end="1002" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="993" end="993" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="1032" end="1055" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="998" end="998" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="990" end="990" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="991" end="997" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="969" end="1012" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="1002" end="1004" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectCrud" class-type="Trait" top-level-class="SubjectCrud" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="delete" start="991" end="1004" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubjectDetails" filename="com/knoldus/repo/SubjectRepo.scala" statement-count="21" statements-invoked="21" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubjectDetails/*" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="493" end="508" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="468" end="472" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="461" end="509" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="461" end="509" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="477" end="491" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="462" end="466" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="461" end="473" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="*" start="474" end="474" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubjectDetails/&lt;none&gt;" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="348" end="383" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="413" end="413" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="360" end="368" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="359" end="359" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="422" end="446" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="399" end="447" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="370" end="382" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubjectDetails" class-type="Class" top-level-class="SubjectRepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala" method="&lt;none&gt;" start="414" end="420" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubStudDetails" filename="com/knoldus/repo/SubjectStudentrepo.scala" statement-count="48" statements-invoked="26" statement-rate="54.17" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus.repo/SubStudDetails/key2" statement-count="11" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="642" end="642" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="642" end="642" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="604" end="616" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="642" end="642" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="627" end="641" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="603" end="603" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="642" end="642" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="618" end="625" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="593" end="648" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="603" end="603" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key2" start="643" end="647" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudDetails/*" statement-count="16" statements-invoked="16" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="687" end="701" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="662" end="719" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="662" end="719" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="663" end="665" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="662" end="683" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="675" end="682" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="703" end="718" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="667" end="673" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="*" start="684" end="684" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudDetails/key1" statement-count="11" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="568" end="568" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="553" end="567" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="521" end="576" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="531" end="531" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="568" end="568" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="545" end="551" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="532" end="543" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="568" end="568" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="569" end="575" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="568" end="568" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="key1" start="531" end="531" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus.repo/SubStudDetails/&lt;none&gt;" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="405" end="409" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="482" end="504" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="393" end="424" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="453" end="453" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="493" end="493" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="404" end="404" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="411" end="423" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="454" end="462" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="494" end="503" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus.repo" class="SubStudDetails" class-type="Class" top-level-class="SubjectStudentrepo" source="/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala" method="&lt;none&gt;" start="442" end="463" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

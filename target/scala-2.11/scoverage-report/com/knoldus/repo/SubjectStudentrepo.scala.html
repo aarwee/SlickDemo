@@ -1,0 +1,2566 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/repo/SubjectStudentrepo.scala.html
+        </title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus.repo
+</span>2 <span style=''>
+</span>3 <span style=''>import com.knoldus.connection.DbComponent
+</span>4 <span style=''>
+</span>5 <span style=''>import scala.concurrent.{Future}
+</span>6 <span style=''>
+</span>7 <span style=''>/**
+</span>8 <span style=''>  * Created by knoldus on 7/3/16.
+</span>9 <span style=''>*/
+</span>10 <span style=''>case class SubStud(id:Int,sub_id:Int,stud_id:Int)
+</span>11 <span style=''>
+</span>12 <span style=''>trait SubjectStudentrepo extends StudentCrud with SubjectCrud { this: DbComponent =>
+</span>13 <span style=''>
+</span>14 <span style=''>  import driver.api._
+</span>15 <span style=''>
+</span>16 <span style=''>  class SubStudDetails(tag: Tag) extends Table[SubStud](tag, "sub_stud") {
+</span>17 <span style=''>
+</span>18 <span style=''>    val id = </span><span style='background: #AEF1AE'>column[Int]("id", O.PrimaryKey)</span><span style=''>
+</span>19 <span style=''>    val sub_id = </span><span style='background: #AEF1AE'>column[Int]("sub_id")</span><span style=''>
+</span>20 <span style=''>    val stud_id = </span><span style='background: #AEF1AE'>column[Int]("stud_id")</span><span style=''>
+</span>21 <span style=''>
+</span>22 <span style=''>    def key1 = </span><span style='background: #F0ADAD'>foreignKey("sub_id_fk", sub_id, subjectDetails)(_.s_id)</span><span style=''>
+</span>23 <span style=''>
+</span>24 <span style=''>    def key2 = </span><span style='background: #F0ADAD'>foreignKey("stud_id_fk", stud_id, studentDetails)(_.id)</span><span style=''>
+</span>25 <span style=''>
+</span>26 <span style=''>    def * = </span><span style='background: #AEF1AE'>(id, sub_id, stud_id) <>(SubStud.tupled, SubStud.unapply)</span><span style=''>
+</span>27 <span style=''>
+</span>28 <span style=''>  }
+</span>29 <span style=''>
+</span>30 <span style=''>
+</span>31 <span style=''>  val sub_studDetails = TableQuery[SubStudDetails]
+</span>32 <span style=''>
+</span>33 <span style=''>  // val db = Database.forConfig("postgres")
+</span>34 <span style=''>
+</span>35 <span style=''>}
+</span>36 <span style=''>  trait SubStudCrud extends SubjectStudentrepo{ this: DbComponent =>
+</span>37 <span style=''>
+</span>38 <span style=''>    import driver.api._
+</span>39 <span style=''>
+</span>40 <span style=''>    def insertMapping(id:Int,sub_id:Int,stud_id:Int):Future[Int] = {
+</span>41 <span style=''>
+</span>42 <span style=''>      val insertStatement = </span><span style='background: #AEF1AE'>sub_studDetails += SubStud(id,sub_id,stud_id)</span><span style=''>
+</span>43 <span style=''>      val result = </span><span style='background: #AEF1AE'>db.run {
+</span>44 <span style=''></span><span style='background: #AEF1AE'>        insertStatement
+</span>45 <span style=''></span><span style='background: #AEF1AE'>      }</span><span style=''>
+</span>46 <span style=''>      result
+</span>47 <span style=''>    }
+</span>48 <span style=''>    def deleteMapping(id:Int):Future[Int]={
+</span>49 <span style=''>
+</span>50 <span style=''>      val deleteStatement = </span><span style='background: #AEF1AE'>sub_studDetails.filter(_.id === id).delete</span><span style=''>
+</span>51 <span style=''>      val result = </span><span style='background: #AEF1AE'>db.run{deleteStatement}</span><span style=''>
+</span>52 <span style=''>      result
+</span>53 <span style=''>    }
+</span>54 <span style=''>    def updateMapping (id:Int,sub_id:Int,stud_id:Int):Future[Int]={
+</span>55 <span style=''>
+</span>56 <span style=''>      val updateStatement = </span><span style='background: #AEF1AE'>sub_studDetails.filter(_.id === id).update(SubStud(id,sub_id,stud_id))</span><span style=''>
+</span>57 <span style=''>      val result  = </span><span style='background: #AEF1AE'>db.run{updateStatement}</span><span style=''>
+</span>58 <span style=''>      result
+</span>59 <span style=''>    }
+</span>60 <span style=''>    def  getAllMapping:Future[List[SubStud]]={
+</span>61 <span style=''>
+</span>62 <span style=''>      val searchStatement = </span><span style='background: #AEF1AE'>sub_studDetails.to[List].result</span><span style=''>
+</span>63 <span style=''>      val result = </span><span style='background: #AEF1AE'>db.run{searchStatement}</span><span style=''>
+</span>64 <span style=''>      result
+</span>65 <span style=''>    }
+</span>66 <span style=''>    def getByIdMapping(id:Int):Future[List[SubStud]]={
+</span>67 <span style=''>
+</span>68 <span style=''>      val search = </span><span style='background: #AEF1AE'>sub_studDetails.filter(_.id === id).to[List].result</span><span style=''>
+</span>69 <span style=''>      val result = </span><span style='background: #AEF1AE'>db.run{search}</span><span style=''>
+</span>70 <span style=''>      result
+</span>71 <span style=''>    }
+</span>72 <span style=''>    def getStudentSubject(id:Int):Future[List[Subject]] ={
+</span>73 <span style=''>
+</span>74 <span style=''>      val subjectList = </span><span style='background: #AEF1AE'>sub_studDetails.filter(_.stud_id === id).join(subjectDetails).on(_.sub_id === _.s_id).map{
+</span>75 <span style=''></span><span style='background: #AEF1AE'>        case(subject,mapping) => mapping
+</span>76 <span style=''></span><span style='background: #AEF1AE'>      }.to[List].result</span><span style=''>
+</span>77 <span style=''>      val result = </span><span style='background: #AEF1AE'>db.run{subjectList}</span><span style=''>
+</span>78 <span style=''>      result
+</span>79 <span style=''>    }
+</span>80 <span style=''>
+</span>81 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          146
+        </td>
+        <td>
+          405
+          -
+          409
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;id&quot;
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          149
+        </td>
+        <td>
+          393
+          -
+          424
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.Table.column
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.column[Int](&quot;id&quot;, SubStudDetails.this.O.PrimaryKey)(SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          148
+        </td>
+        <td>
+          404
+          -
+          404
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          147
+        </td>
+        <td>
+          411
+          -
+          423
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.ColumnOptions.PrimaryKey
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.O.PrimaryKey
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          151
+        </td>
+        <td>
+          453
+          -
+          453
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          150
+        </td>
+        <td>
+          454
+          -
+          462
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;sub_id&quot;
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          152
+        </td>
+        <td>
+          442
+          -
+          463
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.Table.column
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.column[Int](&quot;sub_id&quot;)(SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          155
+        </td>
+        <td>
+          482
+          -
+          504
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalTableComponent.Table.column
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.column[Int](&quot;stud_id&quot;)(SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          154
+        </td>
+        <td>
+          493
+          -
+          493
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          153
+        </td>
+        <td>
+          494
+          -
+          503
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;stud_id&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          164
+        </td>
+        <td>
+          568
+          -
+          568
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #F0ADAD">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          158
+        </td>
+        <td>
+          553
+          -
+          567
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectRepo.subjectDetails
+        </td>
+        <td style="background: #F0ADAD">
+          SubjectStudentrepo.this.subjectDetails
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          166
+        </td>
+        <td>
+          521
+          -
+          576
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.SubjectDetails, com.knoldus.repo.Subject](x$9, x$10, x$11)(x$12, x$13, x$14)(lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Subject, SubjectStudentrepo.this.SubjectDetails](scala.this.Predef.$conforms[SubjectStudentrepo.this.SubjectDetails]), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          160
+        </td>
+        <td>
+          531
+          -
+          531
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey$default$5
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey$default$5[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.SubjectDetails, com.knoldus.repo.Subject](x$9, x$10, x$11)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          163
+        </td>
+        <td>
+          568
+          -
+          568
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.AbstractTableShapeImplicits.tableShape
+        </td>
+        <td style="background: #F0ADAD">
+          lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Subject, SubjectStudentrepo.this.SubjectDetails](scala.this.Predef.$conforms[SubjectStudentrepo.this.SubjectDetails])
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          157
+        </td>
+        <td>
+          545
+          -
+          551
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.sub_id
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          156
+        </td>
+        <td>
+          532
+          -
+          543
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;sub_id_fk&quot;
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          165
+        </td>
+        <td>
+          568
+          -
+          568
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #F0ADAD">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          159
+        </td>
+        <td>
+          569
+          -
+          575
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectRepo.SubjectDetails.s_id
+        </td>
+        <td style="background: #F0ADAD">
+          x$1.s_id
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          162
+        </td>
+        <td>
+          568
+          -
+          568
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #F0ADAD">
+          scala.this.Predef.$conforms[SubjectStudentrepo.this.SubjectDetails]
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          161
+        </td>
+        <td>
+          531
+          -
+          531
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey$default$6
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey$default$6[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.SubjectDetails, com.knoldus.repo.Subject](x$9, x$10, x$11)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          173
+        </td>
+        <td>
+          642
+          -
+          642
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #F0ADAD">
+          scala.this.Predef.$conforms[SubjectStudentrepo.this.StudentDetails]
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          176
+        </td>
+        <td>
+          642
+          -
+          642
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #F0ADAD">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          167
+        </td>
+        <td>
+          604
+          -
+          616
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;stud_id_fk&quot;
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          175
+        </td>
+        <td>
+          642
+          -
+          642
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #F0ADAD">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          169
+        </td>
+        <td>
+          627
+          -
+          641
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.StudentRepo.studentDetails
+        </td>
+        <td style="background: #F0ADAD">
+          SubjectStudentrepo.this.studentDetails
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          172
+        </td>
+        <td>
+          603
+          -
+          603
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey$default$6
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey$default$6[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.StudentDetails, com.knoldus.repo.Student](x$15, x$16, x$17)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          174
+        </td>
+        <td>
+          642
+          -
+          642
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.AbstractTableShapeImplicits.tableShape
+        </td>
+        <td style="background: #F0ADAD">
+          lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Student, SubjectStudentrepo.this.StudentDetails](scala.this.Predef.$conforms[SubjectStudentrepo.this.StudentDetails])
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          168
+        </td>
+        <td>
+          618
+          -
+          625
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.stud_id
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.stud_id
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          177
+        </td>
+        <td>
+          593
+          -
+          648
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.StudentDetails, com.knoldus.repo.Student](x$15, x$16, x$17)(x$18, x$19, x$20)(lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Student, SubjectStudentrepo.this.StudentDetails](scala.this.Predef.$conforms[SubjectStudentrepo.this.StudentDetails]), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          171
+        </td>
+        <td>
+          603
+          -
+          603
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.lifted.AbstractTable.foreignKey$default$5
+        </td>
+        <td style="background: #F0ADAD">
+          SubStudDetails.this.foreignKey$default$5[slick.lifted.Rep[Int], Int, SubjectStudentrepo.this.StudentDetails, com.knoldus.repo.Student](x$15, x$16, x$17)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          170
+        </td>
+        <td>
+          643
+          -
+          647
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.StudentRepo.StudentDetails.id
+        </td>
+        <td style="background: #F0ADAD">
+          x$2.id
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          182
+        </td>
+        <td>
+          687
+          -
+          701
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.Function3.tupled
+        </td>
+        <td style="background: #AEF1AE">
+          SubStud.tupled
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          191
+        </td>
+        <td>
+          662
+          -
+          719
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ToShapedValue.&lt;&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.anyToToShapedValue[(slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int])](scala.Tuple3.apply[slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](SubStudDetails.this.id, SubStudDetails.this.sub_id, SubStudDetails.this.stud_id)).&lt;&gt;[com.knoldus.repo.SubStud, (Int, Int, Int)](SubStud.tupled, {
+  ((x$0: com.knoldus.repo.SubStud) =&gt; SubStud.unapply(x$0))
+})((ClassTag.apply[com.knoldus.repo.SubStud](classOf[com.knoldus.repo.SubStud]): scala.reflect.ClassTag[com.knoldus.repo.SubStud]), lifted.this.Shape.tuple3Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int], Int, Int, Int, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)))
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          185
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          184
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          193
+        </td>
+        <td>
+          662
+          -
+          719
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ProvenShape.proveShapeOf
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.ProvenShape.proveShapeOf[slick.lifted.MappedProjection[com.knoldus.repo.SubStud,(Int, Int, Int)], com.knoldus.repo.SubStud](SubjectStudentrepo.this.driver.api.anyToToShapedValue[(slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int])](scala.Tuple3.apply[slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](SubStudDetails.this.id, SubStudDetails.this.sub_id, SubStudDetails.this.stud_id)).&lt;&gt;[com.knoldus.repo.SubStud, (Int, Int, Int)](SubStud.tupled, {
+  ((x$0: com.knoldus.repo.SubStud) =&gt; SubStud.unapply(x$0))
+})((ClassTag.apply[com.knoldus.repo.SubStud](classOf[com.knoldus.repo.SubStud]): scala.reflect.ClassTag[com.knoldus.repo.SubStud]), lifted.this.Shape.tuple3Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int], Int, Int, Int, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType))))(lifted.this.MappedProjection.mappedProjectionShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.SubStud, (Int, Int, Int)])
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          178
+        </td>
+        <td>
+          663
+          -
+          665
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.id
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.id
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          187
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          181
+        </td>
+        <td>
+          662
+          -
+          683
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Tuple3.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Tuple3.apply[slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](SubStudDetails.this.id, SubStudDetails.this.sub_id, SubStudDetails.this.stud_id)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          190
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.TupleShapeImplicits.tuple3Shape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.tuple3Shape[slick.lifted.FlatShapeLevel, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int], Int, Int, Int, slick.lifted.Rep[Int], slick.lifted.Rep[Int], slick.lifted.Rep[Int]](lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType), lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          189
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.RepShapeImplicits.repColumnShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.repColumnShape[Int, Nothing](SubjectStudentrepo.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          180
+        </td>
+        <td>
+          675
+          -
+          682
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.stud_id
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.stud_id
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          183
+        </td>
+        <td>
+          703
+          -
+          718
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.repo.SubStud.unapply
+        </td>
+        <td style="background: #AEF1AE">
+          SubStud.unapply(x$0)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          192
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          slick.lifted.MappedProjection.mappedProjectionShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.MappedProjection.mappedProjectionShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.SubStud, (Int, Int, Int)]
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          186
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          179
+        </td>
+        <td>
+          667
+          -
+          673
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.sub_id
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudDetails.this.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          188
+        </td>
+        <td>
+          684
+          -
+          684
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubjectStudentrepo.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          42
+        </td>
+        <td>
+          194
+        </td>
+        <td>
+          1020
+          -
+          1035
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.sub_studDetails
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails
+        </td>
+      </tr><tr>
+        <td>
+          42
+        </td>
+        <td>
+          196
+        </td>
+        <td>
+          1020
+          -
+          1065
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.SimpleInsertActionComposer.+=
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.queryInsertActionExtensionMethods[SubStudCrud.this.SubStudDetails#TableElementType, Seq](SubStudCrud.this.sub_studDetails).+=(SubStud.apply(id, sub_id, stud_id))
+        </td>
+      </tr><tr>
+        <td>
+          42
+        </td>
+        <td>
+          195
+        </td>
+        <td>
+          1039
+          -
+          1065
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.repo.SubStud.apply
+        </td>
+        <td style="background: #AEF1AE">
+          SubStud.apply(id, sub_id, stud_id)
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          197
+        </td>
+        <td>
+          1085
+          -
+          1125
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[Int](insertStatement)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          200
+        </td>
+        <td>
+          1250
+          -
+          1250
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          202
+        </td>
+        <td>
+          1246
+          -
+          1246
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          205
+        </td>
+        <td>
+          1240
+          -
+          1240
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          199
+        </td>
+        <td>
+          1243
+          -
+          1243
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          207
+        </td>
+        <td>
+          1218
+          -
+          1260
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.DeleteActionExtensionMethodsImpl.delete
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.queryDeleteActionExtensionMethods[Seq](SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$3: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$3.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition)).delete
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          198
+        </td>
+        <td>
+          1241
+          -
+          1245
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.id
+        </td>
+        <td style="background: #AEF1AE">
+          x$3.id
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          201
+        </td>
+        <td>
+          1250
+          -
+          1252
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          204
+        </td>
+        <td>
+          1241
+          -
+          1252
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$3.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          203
+        </td>
+        <td>
+          1246
+          -
+          1246
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          206
+        </td>
+        <td>
+          1218
+          -
+          1253
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.filter
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$3: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$3.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition)
+        </td>
+      </tr><tr>
+        <td>
+          51
+        </td>
+        <td>
+          208
+        </td>
+        <td>
+          1280
+          -
+          1303
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[Int](deleteStatement)
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          218
+        </td>
+        <td>
+          1463
+          -
+          1489
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.repo.SubStud.apply
+        </td>
+        <td style="background: #AEF1AE">
+          SubStud.apply(id, sub_id, stud_id)
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          209
+        </td>
+        <td>
+          1443
+          -
+          1447
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.id
+        </td>
+        <td style="background: #AEF1AE">
+          x$4.id
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          211
+        </td>
+        <td>
+          1452
+          -
+          1452
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          214
+        </td>
+        <td>
+          1448
+          -
+          1448
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          217
+        </td>
+        <td>
+          1420
+          -
+          1455
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.filter
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$4: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$4.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition)
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          216
+        </td>
+        <td>
+          1442
+          -
+          1442
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          210
+        </td>
+        <td>
+          1445
+          -
+          1445
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          219
+        </td>
+        <td>
+          1420
+          -
+          1490
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.UpdateActionExtensionMethodsImpl.update
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.queryUpdateActionExtensionMethods[SubStudCrud.this.SubStudDetails#TableElementType, Seq](SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$4: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$4.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition)).update(SubStud.apply(id, sub_id, stud_id))
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          213
+        </td>
+        <td>
+          1448
+          -
+          1448
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          212
+        </td>
+        <td>
+          1452
+          -
+          1454
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          215
+        </td>
+        <td>
+          1443
+          -
+          1454
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$4.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          57
+        </td>
+        <td>
+          220
+        </td>
+        <td>
+          1511
+          -
+          1534
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[Int](updateStatement)
+        </td>
+      </tr><tr>
+        <td>
+          62
+        </td>
+        <td>
+          223
+        </td>
+        <td>
+          1630
+          -
+          1654
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.to
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails.to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))
+        </td>
+      </tr><tr>
+        <td>
+          62
+        </td>
+        <td>
+          222
+        </td>
+        <td>
+          1648
+          -
+          1648
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.ast.TypedCollectionTypeConstructor.forColl
+        </td>
+        <td style="background: #AEF1AE">
+          ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]]))
+        </td>
+      </tr><tr>
+        <td>
+          62
+        </td>
+        <td>
+          221
+        </td>
+        <td>
+          1648
+          -
+          1648
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.List.canBuildFrom
+        </td>
+        <td style="background: #AEF1AE">
+          immutable.this.List.canBuildFrom[Any]
+        </td>
+      </tr><tr>
+        <td>
+          62
+        </td>
+        <td>
+          224
+        </td>
+        <td>
+          1630
+          -
+          1661
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.StreamingQueryActionExtensionMethodsImpl.result
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.streamableQueryActionExtensionMethods[SubStudCrud.this.SubStudDetails#TableElementType, List](SubStudCrud.this.sub_studDetails.to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))).result
+        </td>
+      </tr><tr>
+        <td>
+          63
+        </td>
+        <td>
+          225
+        </td>
+        <td>
+          1681
+          -
+          1704
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[List[SubStudCrud.this.SubStudDetails#TableElementType]](searchStatement)
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          227
+        </td>
+        <td>
+          1824
+          -
+          1824
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          236
+        </td>
+        <td>
+          1799
+          -
+          1843
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.to
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$5: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$5.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          226
+        </td>
+        <td>
+          1822
+          -
+          1826
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.id
+        </td>
+        <td style="background: #AEF1AE">
+          x$5.id
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          235
+        </td>
+        <td>
+          1837
+          -
+          1837
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.ast.TypedCollectionTypeConstructor.forColl
+        </td>
+        <td style="background: #AEF1AE">
+          ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]]))
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          229
+        </td>
+        <td>
+          1831
+          -
+          1833
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          232
+        </td>
+        <td>
+          1822
+          -
+          1833
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$5.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          234
+        </td>
+        <td>
+          1837
+          -
+          1837
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.List.canBuildFrom
+        </td>
+        <td style="background: #AEF1AE">
+          immutable.this.List.canBuildFrom[Any]
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          228
+        </td>
+        <td>
+          1831
+          -
+          1831
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          237
+        </td>
+        <td>
+          1799
+          -
+          1850
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.StreamingQueryActionExtensionMethodsImpl.result
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.streamableQueryActionExtensionMethods[SubStudCrud.this.SubStudDetails#TableElementType, List](SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$5: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$5.id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))).result
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          231
+        </td>
+        <td>
+          1827
+          -
+          1827
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          230
+        </td>
+        <td>
+          1827
+          -
+          1827
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          68
+        </td>
+        <td>
+          233
+        </td>
+        <td>
+          1821
+          -
+          1821
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          69
+        </td>
+        <td>
+          238
+        </td>
+        <td>
+          1870
+          -
+          1884
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[List[SubStudCrud.this.SubStudDetails#TableElementType]](search)
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          254
+        </td>
+        <td>
+          2052
+          -
+          2052
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          245
+        </td>
+        <td>
+          2011
+          -
+          2027
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$6.stud_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          244
+        </td>
+        <td>
+          2021
+          -
+          2021
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          253
+        </td>
+        <td>
+          2053
+          -
+          2072
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.ColumnExtensionMethods.===
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$7.sub_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](x$8.s_id)(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          256
+        </td>
+        <td>
+          2077
+          -
+          2077
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.AbstractTableShapeImplicits.tableShape
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Subject, SubStudCrud.this.SubjectDetails](scala.this.Predef.$conforms[SubStudCrud.this.SubjectDetails])
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          247
+        </td>
+        <td>
+          2034
+          -
+          2048
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectRepo.subjectDetails
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.subjectDetails
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          250
+        </td>
+        <td>
+          2066
+          -
+          2072
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectRepo.SubjectDetails.s_id
+        </td>
+        <td style="background: #AEF1AE">
+          x$8.s_id
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          241
+        </td>
+        <td>
+          2025
+          -
+          2025
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          249
+        </td>
+        <td>
+          2055
+          -
+          2055
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          240
+        </td>
+        <td>
+          2013
+          -
+          2013
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          252
+        </td>
+        <td>
+          2062
+          -
+          2062
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.OptionMapper2.getOptionMapper2TT
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          243
+        </td>
+        <td>
+          2021
+          -
+          2021
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          255
+        </td>
+        <td>
+          2077
+          -
+          2077
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.Predef.$conforms
+        </td>
+        <td style="background: #AEF1AE">
+          scala.this.Predef.$conforms[SubStudCrud.this.SubjectDetails]
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          246
+        </td>
+        <td>
+          2010
+          -
+          2010
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.lifted.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+        <td style="background: #AEF1AE">
+          lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          248
+        </td>
+        <td>
+          2053
+          -
+          2061
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.sub_id
+        </td>
+        <td style="background: #AEF1AE">
+          x$7.sub_id
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          239
+        </td>
+        <td>
+          2011
+          -
+          2020
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.repo.SubjectStudentrepo.SubStudDetails.stud_id
+        </td>
+        <td style="background: #AEF1AE">
+          x$6.stud_id
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          242
+        </td>
+        <td>
+          2025
+          -
+          2027
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.profile.RelationalProfile.API.valueToConstColumn
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType)
+        </td>
+      </tr><tr>
+        <td>
+          74
+        </td>
+        <td>
+          251
+        </td>
+        <td>
+          2062
+          -
+          2062
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcTypesComponent.ImplicitColumnTypes.intColumnType
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.intColumnType
+        </td>
+      </tr><tr>
+        <td>
+          76
+        </td>
+        <td>
+          259
+        </td>
+        <td>
+          1988
+          -
+          2136
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.lifted.Query.to
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$6: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$6.stud_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).join[SubStudCrud.this.SubjectDetails, SubStudCrud.this.SubjectDetails#TableElementType, Seq](SubStudCrud.this.subjectDetails).on[slick.lifted.Rep[Boolean]](((x$7: SubStudCrud.this.SubStudDetails, x$8: SubStudCrud.this.SubjectDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$7.sub_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](x$8.s_id)(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).map[SubStudCrud.this.SubjectDetails, SubStudCrud.this.SubjectDetails, com.knoldus.repo.Subject](((x0$1: (SubStudCrud.this.SubStudDetails, SubStudCrud.this.SubjectDetails)) =&gt; x0$1 match {
+  case (_1: SubStudCrud.this.SubStudDetails, _2: SubStudCrud.this.SubjectDetails)(SubStudCrud.this.SubStudDetails, SubStudCrud.this.SubjectDetails)((subject @ _), (mapping @ _)) =&gt; mapping
+}))(lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Subject, SubStudCrud.this.SubjectDetails](scala.this.Predef.$conforms[SubStudCrud.this.SubjectDetails])).to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))
+        </td>
+      </tr><tr>
+        <td>
+          76
+        </td>
+        <td>
+          258
+        </td>
+        <td>
+          2130
+          -
+          2130
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          slick.ast.TypedCollectionTypeConstructor.forColl
+        </td>
+        <td style="background: #AEF1AE">
+          ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]]))
+        </td>
+      </tr><tr>
+        <td>
+          76
+        </td>
+        <td>
+          257
+        </td>
+        <td>
+          2130
+          -
+          2130
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.List.canBuildFrom
+        </td>
+        <td style="background: #AEF1AE">
+          immutable.this.List.canBuildFrom[Any]
+        </td>
+      </tr><tr>
+        <td>
+          76
+        </td>
+        <td>
+          260
+        </td>
+        <td>
+          1988
+          -
+          2143
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          slick.driver.JdbcActionComponent.StreamingQueryActionExtensionMethodsImpl.result
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.driver.api.streamableQueryActionExtensionMethods[com.knoldus.repo.Subject, List](SubStudCrud.this.sub_studDetails.filter[slick.lifted.Rep[Boolean]](((x$6: SubStudCrud.this.SubStudDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$6.stud_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](SubStudCrud.this.driver.api.valueToConstColumn[Int](id)(SubStudCrud.this.driver.api.intColumnType))(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).join[SubStudCrud.this.SubjectDetails, SubStudCrud.this.SubjectDetails#TableElementType, Seq](SubStudCrud.this.subjectDetails).on[slick.lifted.Rep[Boolean]](((x$7: SubStudCrud.this.SubStudDetails, x$8: SubStudCrud.this.SubjectDetails) =&gt; SubStudCrud.this.driver.api.columnExtensionMethods[Int](x$7.sub_id)(SubStudCrud.this.driver.api.intColumnType).===[Int, Boolean](x$8.s_id)(lifted.this.OptionMapper2.getOptionMapper2TT[Int, Int, Boolean](SubStudCrud.this.driver.api.intColumnType))))(lifted.this.CanBeQueryCondition.BooleanColumnCanBeQueryCondition).map[SubStudCrud.this.SubjectDetails, SubStudCrud.this.SubjectDetails, com.knoldus.repo.Subject](((x0$1: (SubStudCrud.this.SubStudDetails, SubStudCrud.this.SubjectDetails)) =&gt; x0$1 match {
+  case (_1: SubStudCrud.this.SubStudDetails, _2: SubStudCrud.this.SubjectDetails)(SubStudCrud.this.SubStudDetails, SubStudCrud.this.SubjectDetails)((subject @ _), (mapping @ _)) =&gt; mapping
+}))(lifted.this.Shape.tableShape[slick.lifted.FlatShapeLevel, com.knoldus.repo.Subject, SubStudCrud.this.SubjectDetails](scala.this.Predef.$conforms[SubStudCrud.this.SubjectDetails])).to[List](ast.this.TypedCollectionTypeConstructor.forColl[List](immutable.this.List.canBuildFrom[Any], (ClassTag.apply[List[_]](classOf[scala.collection.immutable.List]): scala.reflect.ClassTag[List[_]])))).result
+        </td>
+      </tr><tr>
+        <td>
+          77
+        </td>
+        <td>
+          261
+        </td>
+        <td>
+          2163
+          -
+          2182
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          slick.backend.DatabaseComponent.DatabaseDef.run
+        </td>
+        <td style="background: #AEF1AE">
+          SubStudCrud.this.db.run[List[com.knoldus.repo.Subject]](subjectList)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

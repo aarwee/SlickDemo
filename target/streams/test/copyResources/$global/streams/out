@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/test/resources/schemadata.sql,/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/test-classes/schemadata.sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/test/resources/schema.sql,/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/test-classes/schema.sql)[0m

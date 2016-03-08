@@ -1,0 +1,618 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes
+compile options:
+3 items
+0 -> -Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.1.1.jar
+1 -> -P:scoverage:dataDir:/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/scoverage-data
+2 -> -Yrangepos
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+46 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/DbComponent.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/MyDbComponent$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/MyDbComponent.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/PostgresDB$.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/PostgresDB.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Student$.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Student.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$2.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$3.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$4.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$$anonfun$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$StudentDetails$$anonfun$$times$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$StudentDetails.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Subject$.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Subject.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$2.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$3.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$4.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$$anonfun$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$SubjectDetails$$anonfun$$times$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$SubjectDetails.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStud$.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStud.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$4.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$5.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$6.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$7.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$8.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$9.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$$anonfun$3.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$$times$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$1.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$2.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$class.class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo.class
+binary dependencies:
+18 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> /home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+6 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+3 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> /home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala
+inheritance external dependencies:
+0 items
+class names:
+46 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> com.knoldus.connection.DbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> com.knoldus.connection.MyDbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> com.knoldus.connection.MyDbComponent$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> com.knoldus.connection.PostgresDB
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> com.knoldus.connection.PostgresDB$
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.Student
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.Student$
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentCrud$$anonfun$2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentCrud$$anonfun$3
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentCrud$$anonfun$4
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentCrud$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentRepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentRepo$$anonfun$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentRepo$StudentDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentRepo$StudentDetails$$anonfun$$times$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com.knoldus.repo.StudentRepo$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.Subject
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.Subject$
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectCrud$$anonfun$2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectCrud$$anonfun$3
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectCrud$$anonfun$4
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectCrud$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectRepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectRepo$$anonfun$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectRepo$SubjectDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectRepo$SubjectDetails$$anonfun$$times$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com.knoldus.repo.SubjectRepo$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStud$
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$4
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$5
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$6
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$7
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$8
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$$anonfun$9
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubStudCrud$class
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$$anonfun$3
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$SubStudDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$SubStudDetails$$anonfun$$times$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$SubStudDetails$$anonfun$1
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$SubStudDetails$$anonfun$2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com.knoldus.repo.SubjectStudentrepo$class
+used names:
+356 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> AnyRef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> Database
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> JdbcProfile
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> PostgresDriver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> api
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> com
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> connection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> driver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> knoldus
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> slick
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> <init>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> AnyRef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> Database
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> DbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> Invoker
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> MyDbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> PostgresDB
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> PostgresDriver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> api
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> com
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> connection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> connectionPool
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> db
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> driver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> forConfig
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> invoked
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> knoldus
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> scoverage
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> slick
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> &&
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> +=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> <>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> <init>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ==
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ===
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> AbstractFunction3
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> AnyRef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Await
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> BooleanColumnCanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> CanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> DbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Future
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Int
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Invoker
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> List
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> MappedProjection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> None
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> O
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> OptionMapper2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Predef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> PrimaryKey
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Product
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ProvenShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ScalaRunTime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Serializable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> SqlType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Statics
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> String
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Student
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> StudentCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> StudentDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> StudentRepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Table
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> TableQuery
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> Tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> TypedCollectionTypeConstructor
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> _toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> anyHash
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> anyToToShapedValue
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> api
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> apply
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> asInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ast
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> canBuildFrom
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> column
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> columnExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> com
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> concurrent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> connection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> db
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> delete
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> deleteStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> driver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> email
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> eq
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> filter
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> finalizeHash
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> forColl
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> getOptionMapper2TT
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> immutable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> insertStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> intColumnType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> invoked
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> isInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> knoldus
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> lifted
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> mappedProjectionShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> materializeClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> mix
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> name
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> package
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> proveShapeOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> queryDeleteActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> queryInsertActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> queryUpdateActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> repColumnShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> repo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> result
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> run
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> runtime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> scoverage
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> search
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> searchStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> streamableQueryActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> stringColumnType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> studentDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> to
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> tuple3Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> tupled
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> typedProductIterator
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> update
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> updateStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> valueToConstColumn
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> ||
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> &&
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> +=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> <>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> <init>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ==
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ===
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> AbstractFunction2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> AnyRef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> BooleanColumnCanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> CanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> DbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Future
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Int
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Invoker
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> List
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> MappedProjection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> None
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> O
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> OptionMapper2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Predef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> PrimaryKey
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Product
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ProvenShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ScalaRunTime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Serializable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> SqlType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Statics
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> String
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Subject
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> SubjectCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> SubjectDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> SubjectRepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Table
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> TableQuery
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> Tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> TypedCollectionTypeConstructor
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> _toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> anyHash
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> anyToToShapedValue
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> api
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> apply
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> asInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ast
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> canBuildFrom
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> column
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> columnExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> com
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> concurrent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> connection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> db
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> delete
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> deleteStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> driver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> eq
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> filter
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> finalizeHash
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> forColl
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> getOptionMapper2TT
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> immutable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> insertStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> intColumnType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> invoked
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> isInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> knoldus
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> lifted
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> mappedProjectionShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> materializeClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> mix
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> name
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> package
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> proveShapeOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> queryDeleteActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> queryInsertActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> queryUpdateActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> repColumnShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> repo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> result
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> run
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> runtime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> s_id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> scoverage
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> search
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> searchStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> streamableQueryActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> stringColumnType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> sub_id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> subjectDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> to
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> tuple2Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> tupled
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> typedProductIterator
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> update
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> updateStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> valueToConstColumn
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> ||
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> $conforms
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> &&
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> +=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> <>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> <init>
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ==
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ===
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> AbstractFunction3
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> BooleanColumnCanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> CanBeQueryCondition
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> DbComponent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Future
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Int
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Invoker
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> List
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> MappedProjection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> None
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> O
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> OptionMapper2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Predef
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> PrimaryKey
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Product
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ProvenShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ScalaRunTime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Serializable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Statics
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> StudentCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> SubStud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> SubStudCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> SubStudDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Subject
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> SubjectCrud
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> SubjectStudentrepo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Table
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> TableQuery
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> Tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> TypedCollectionTypeConstructor
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> _2
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> _toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> anyToToShapedValue
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> api
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> apply
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> asInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ast
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> canBuildFrom
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> column
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> columnExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> com
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> concurrent
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> connection
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> db
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> delete
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> deleteStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> driver
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> eq
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> filter
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> finalizeHash
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> forColl
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> foreignKey
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> getOptionMapper2TT
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> immutable
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> insertStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> intColumnType
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> invoked
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> isInstanceOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> join
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> knoldus
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> lifted
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> map
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> mappedProjectionShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> mapping
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> materializeClassTag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> mix
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ne
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> on
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> package
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> proveShapeOf
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> queryDeleteActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> queryInsertActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> queryUpdateActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> repColumnShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> repo
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> result
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> run
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> runtime
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> s_id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> scala
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> scoverage
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> search
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> searchStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> streamableQueryActionExtensionMethods
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> stud_id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> studentDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> sub_id
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> sub_studDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> subjectDetails
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> subjectList
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> tableShape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> tag
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> to
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> toString
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> tuple3Shape
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> tupled
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> typedProductIterator
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> update
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> updateStatement
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> valueToConstColumn
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$10
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$11
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$12
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$13
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$14
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$15
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$16
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$17
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$18
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$19
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$20
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> x$9
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> ||
+product stamps:
+46 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/DbComponent.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/MyDbComponent$class.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/MyDbComponent.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/PostgresDB$.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/connection/PostgresDB.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Student$.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Student.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$2.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$3.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$$anonfun$4.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud$class.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentCrud.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$$anonfun$1.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$StudentDetails$$anonfun$$times$1.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$StudentDetails.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo$class.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/StudentRepo.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStud$.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStud.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$4.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$5.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$6.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$7.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$8.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$$anonfun$9.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud$class.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubStudCrud.class -> lastModified(1457417484000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Subject$.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/Subject.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$2.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$3.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$$anonfun$4.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud$class.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectCrud.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$$anonfun$1.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$SubjectDetails$$anonfun$$times$1.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$SubjectDetails.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo$class.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectRepo.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$$anonfun$3.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$$times$1.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$1.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails$$anonfun$2.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$SubStudDetails.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo$class.class -> lastModified(1457417485000)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/target/scala-2.11/classes/com/knoldus/repo/SubjectStudentrepo.class -> lastModified(1457417485000)
+source stamps:
+5 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> hash(c1aa7b906dcd46d004094987991089dc98328cbe)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> hash(b2ed2539a2b2137c3a42f9c82c4440ed0ebcb5ac)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> hash(d6e731d35b6eacb8a1989d79a6459b57eae55f8e)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> hash(e1717d69b67cc66b0ddac52275e614fc5dcc9e1a)
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> hash(75a3191898b5ab99a025dbf86460b2c0554fe66e)
+binary stamps:
+4 items
+/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar -> lastModified(1450217224000)
+/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1438617791000)
+/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar -> lastModified(1437941371000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1455859879000)
+class names:
+4 items
+/home/knoldus/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.1.1.jar -> slick.profile.RelationalTableComponent
+/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Serializable
+/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.1.1.jar -> scoverage.Invoker$
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+5 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD+TLZCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAJjHQJ0AAZub3RpZnlzcQB+AAy9O8UpdAAEd2FpdHNxAH4ADDWCuap0AA0kYXNJbnN0YW5jZU9mc3EAfgAMtxA203QABmVxdWFsc3NxAH4ADEsZgzF0AAxhc0luc3RhbmNlT2ZzcQB+AAxKNl+vdAAMc3luY2hyb25pemVkc3EAfgAMKPSMwHQAAmRic3EAfgAMewlm1HQADSRpc0luc3RhbmNlT2ZzcQB+AAxxAhwndAAJbm90aWZ5QWxsc3EAfgAM7KGcHnQADGlzSW5zdGFuY2VPZnNxAH4ADEsKvZx0AAZkcml2ZXJzcQB+AAzwjjE4dAACPT1zcQB+AAw8ccT6dAAFY2xvbmVzcQB+AAzk6BQ+dAAIdG9TdHJpbmdzcQB+AAzt2tXidAACIT1zcQB+AAwQQK6jdAAIZ2V0Q2xhc3NzcQB+AAyPtFFwdAALRGJDb21wb25lbnRzcQB+AAw2gEDCdAACbmVzcQB+AAzctI6mdAACZXFzcQB+AAyyre8kdAACIyNzcQB+AAzg5ACldAAIZmluYWxpemVzcQB+AAx0Hx2ndAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAiY29tLmtub2xkdXMuY29ubmVjdGlvbi5EYkNvbXBvbmVudHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AXHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWwBwc3EAfgBgc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AZHNxAH4AWwBwc3EAfgBgdXEAfgA+AAAAAHNxAH4AWwBwc3EAfgBgdXEAfgA+AAAAAHNxAH4AWwBwc3EAfgBgdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBjc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCAdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCBc3EAfgB0dAADQW55c3EAfgB4c3EAfgB7dXEAfgB+AAAAAnNxAH4AgHQABXNjYWxhcQB+AId1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABZjb20ua25vbGR1cy5jb25uZWN0aW9uc3EAfgCRdAADY29tc3EAfgCRdAALY29tLmtub2xkdXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVNU2dkxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9ob21lL2tub2xkdXMvUGxheUFzc2lnbm1lbnQyL1N0dWRlbnQtU2xpY2stRGVtby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUwap7kG3NRtAECUmHmRCJ3JgyjL4=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDIll5/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMH10h10AAZub3RpZnlzcQB+AAzYb4IsdAAEd2FpdHNxAH4ADEUbjwp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMVMmJtXQABmVxdWFsc3NxAH4ADOo1d0x0AAxhc0luc3RhbmNlT2ZzcQB+AAwv2RZFdAAMc3luY2hyb25pemVkc3EAfgAMYBzfZ3QAAmRic3EAfgAMZBg8ZHQADSRpc0luc3RhbmNlT2ZzcQB+AAwRq9tidAAOY29ubmVjdGlvblBvb2xzcQB+AAxf4/CPdAANTXlEYkNvbXBvbmVudHNxAH4ADCPsMVZ0AAlub3RpZnlBbGxzcQB+AAyy5YPkdAAMaXNJbnN0YW5jZU9mc3EAfgAM1AjANHQABmRyaXZlcnNxAH4ADKG3BIJ0AAI9PXNxAH4ADOVj1010AAVjbG9uZXNxAH4ADK8rGVt0AAYkaW5pdCRzcQB+AAz+Jp+ZdAAIdG9TdHJpbmdzcQB+AAxwr3eqdAAKUG9zdGdyZXNEQnNxAH4ADOUQk5B0AAIhPXNxAH4ADPm7Av10AAhnZXRDbGFzc3NxAH4ADMVVwCd0AAJuZXNxAH4ADKuFmmd0AAJlcXNxAH4ADAerBMt0AAIjI3NxAH4ADFi3DjZ0AAhmaW5hbGl6ZXNxAH4ADEZU+a50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ACRjb20ua25vbGR1cy5jb25uZWN0aW9uLk15RGJDb21wb25lbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGEAcHNxAH4AZnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGpzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVxAH4ARAAAAABzcQB+AGEAcHNxAH4AZnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaXQAC0RiQ29tcG9uZW50c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANjb21zcQB+AIZ0AAdrbm9sZHVzc3EAfgCGdAAKY29ubmVjdGlvbnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCHc3EAfgB6dAAGT2JqZWN0c3EAfgB+c3EAfgCBdXEAfgCEAAAAA3NxAH4AhnQABGphdmFzcQB+AIZ0AARsYW5ncQB+AI9zcQB+AHp0AANBbnlzcQB+AH5zcQB+AIF1cQB+AIQAAAACc3EAfgCGdAAFc2NhbGFxAH4Aj3NxAH4ARnEAfgBTdXEAfgBUAAAAAHNxAH4AVgB0ACFjb20ua25vbGR1cy5jb25uZWN0aW9uLlBvc3RncmVzREJ1cQB+AFkAAAAAfnEAfgBbdAAGTW9kdWxldXEAfgBfAAAAAHNxAH4AYQBwc3EAfgBmcQB+AGtzcQB+AGEAcHNxAH4AZnNxAH4AbnNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXEAfgBEAAAAAHNxAH4AYQBwc3EAfgBmdXEAfgB4AAAAAnNxAH4AenEAfgCRc3EAfgB+c3EAfgCBdXEAfgCEAAAAA3NxAH4AhnEAfgCWc3EAfgCGcQB+AJhxAH4Aj3NxAH4AenEAfgCac3EAfgB+c3EAfgCBdXEAfgCEAAAAAnNxAH4AhnEAfgCfcQB+AI91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABZjb20ua25vbGR1cy5jb25uZWN0aW9uc3EAfgDDdAADY29tc3EAfgDDdAALY29tLmtub2xkdXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVNU2dkxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQASi9ob21lL2tub2xkdXMvUGxheUFzc2lnbm1lbnQyL1N0dWRlbnQtU2xpY2stRGVtby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUsu0lOaKyE3w6QvnILERA7Q68taw=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAk9dYfAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQ3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMGBO590AAZub3RpZnlzcQB+AAwqL3DFdAAEbmFtZXNxAH4ADLN0G4p0AA5nZXRCeUlkU3R1ZGVudHNxAH4ADPIOkNJ0AAR3YWl0c3EAfgAMxuzXnnQAASpzcQB+AAzlfsXddAAOY29weSRkZWZhdWx0JDJzcQB+AAyk5UcLdAANJGFzSW5zdGFuY2VPZnNxAH4ADObWb/B0AAVlbWFpbHNxAH4ADNfj0Ah0AAxwcm9kdWN0QXJpdHlzcQB+AAz9M6wGdAAGZXF1YWxzc3EAfgAMQGQlkXQADlN0dWRlbnREZXRhaWxzc3EAfgAMwvTyS3QAC1N0dWRlbnRSZXBvc3EAfgAMvSdoq3QAFGZvcmVpZ25LZXkkZGVmYXVsdCQ1c3EAfgAMmDPVXnQAB2luZGV4ZXNzcQB+AAwmD0MCdAAMYXNJbnN0YW5jZU9mc3EAfgAMKEfevHQAEHRhYmxlQ29uc3RyYWludHNzcQB+AAz9PJI3dAAKZm9yZWlnbktleXNxAH4ADO4OpHN0AAtTdHVkZW50Q3J1ZHNxAH4ADAdu+Wp0AA11cGRhdGVTdHVkZW50c3EAfgAMW7cHGnQADHN5bmNocm9uaXplZHNxAH4ADK1bAhx0AA0kaXNJbnN0YW5jZU9mc3EAfgAM/tqOnHQACWVuY29kZVJlZnNxAH4ADGdYIQF0AAtwcmltYXJ5S2V5c3NxAH4ADH6xp4t0AAl0YWJsZU5vZGVzcQB+AAwe2DkjdAAIY2FuRXF1YWxzcQB+AAwa6WBodAANdGFibGVQcm92aWRlcnNxAH4ADHrf1zF0AA1wcm9kdWN0UHJlZml4c3EAfgAM6mmdFXQAC2ZvcmVpZ25LZXlzc3EAfgAMWhI5SnQACW5vdGlmeUFsbHNxAH4ADHfao/Z0AApwcmltYXJ5S2V5c3EAfgAMm0u7fXQADGlzSW5zdGFuY2VPZnNxAH4ADN5uwmB0ABRmb3JlaWduS2V5JGRlZmF1bHQkNnNxAH4ADJwkxr10AAY8aW5pdD5zcQB+AAyprUI3dAACaWRzcQB+AAzTWDq/dAAKc2NoZW1hTmFtZXNxAH4ADPNCy/B0AAhjcmVhdGVfKnNxAH4ADFoyZXB0AA5zdHVkZW50RGV0YWlsc3NxAH4ADL3yPz50AAl0YWJsZU5hbWVzcQB+AAwqevSvdAAIdGFibGVUYWdzcQB+AAzCGh4idAACPT1zcQB+AAwF9Da+dAAFY2xvbmVzcQB+AAzbmxVKdAAGdG9Ob2Rlc3EAfgAMrR+JEnQAE2NvbGxlY3RGaWVsZFN5bWJvbHNzcQB+AAxtPdS/dAAQVGFibGVFbGVtZW50VHlwZXNxAH4ADJw+MtB0AAYkaW5pdCRzcQB+AAxveQk1dAAOY29weSRkZWZhdWx0JDNzcQB+AAyregN1dAAEY29weXNxAH4ADBKCMQR0AAZjb2x1bW5zcQB+AAxtlN/jdAAIdG9TdHJpbmdzcQB+AAwKHLLDdAAPaW5kZXgkZGVmYXVsdCQzc3EAfgAMuY7i3nQAAiE9c3EAfgAMq1ZDynQACGdldENsYXNzc3EAfgAMde2+v3QADmNvcHkkZGVmYXVsdCQxc3EAfgAM/58A23QADWRlbGV0ZVN0dWRlbnRzcQB+AAwMjlNpdAATdGFibGVJZGVudGl0eVN5bWJvbHNxAH4ADGzQI0h0AAJuZXNxAH4ADDuIXkt0AAFPc3EAfgAMT9yNZ3QAB1N0dWRlbnRzcQB+AAy7wMn1dAANaW5zZXJ0U3R1ZGVudHNxAH4ADGd2+wB0AAJlcXNxAH4ADNABS9l0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyRuG8odAACIyNzcQB+AAwkGZ6jdAAIZmluYWxpemVzcQB+AAyo+HfAdAAFaW5kZXhzcQB+AAx8GuYpdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwJKFjbdAAIaGFzaENvZGVzcQB+AAxEoH1ndAANZ2V0QWxsU3R1ZGVudHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJ14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABhjb20ua25vbGR1cy5yZXBvLlN0dWRlbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+ALZ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+ALUAcHNxAH4AunNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCdTAAJaW5oZXJpdGVkcQB+AJ1MAAdwYXJlbnRzcQB+AJ14cQB+AL5zcQB+ALUAcHNxAH4AunVxAH4AmAAAAABzcQB+ALUAcHNxAH4AunVxAH4AmAAAAABzcQB+ALUAcHNxAH4AunVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AvXQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AvXNyAA54c2J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
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCFX2TYAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAQnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIxmEJN0AAZub3RpZnlzcQB+AAx4YDS/dAAHZ2V0QnlJZHNxAH4ADFSZMbV0AARuYW1lc3EAfgAM95mPjnQABHdhaXRzcQB+AAwRAPe6dAABKnNxAH4ADAMS/LN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADBM+DO10AA0kYXNJbnN0YW5jZU9mc3EAfgAM6OFzzXQABmdldEFsbHNxAH4ADJU2HD50AAZpbnNlcnRzcQB+AAxj9W/kdAAMcHJvZHVjdEFyaXR5c3EAfgAM2u+A/nQABmVxdWFsc3NxAH4ADN081lR0ABRmb3JlaWduS2V5JGRlZmF1bHQkNXNxAH4ADI7/yV90AAdTdWJqZWN0c3EAfgAMTMzWZHQAB2luZGV4ZXNzcQB+AAxFPeC/dAALU3ViamVjdFJlcG9zcQB+AAwGrTuudAAMYXNJbnN0YW5jZU9mc3EAfgAMBbcIF3QAEHRhYmxlQ29uc3RyYWludHNzcQB+AAw+R39XdAAKZm9yZWlnbktleXNxAH4ADLtEn+l0AAxzeW5jaHJvbml6ZWRzcQB+AAw3iZwYdAANJGlzSW5zdGFuY2VPZnNxAH4ADGhLvt10AAllbmNvZGVSZWZzcQB+AAwZ5AWZdAALcHJpbWFyeUtleXNzcQB+AAyJDsPndAAJdGFibGVOb2Rlc3EAfgAMziml4XQACGNhbkVxdWFsc3EAfgAMiTQe3nQAC1N1YmplY3RDcnVkc3EAfgAMKDbgS3QADXRhYmxlUHJvdmlkZXJzcQB+AAyCL2zBdAANcHJvZHVjdFByZWZpeHNxAH4ADH0PC5F0AAtmb3JlaWduS2V5c3NxAH4ADIZcSNp0AA5TdWJqZWN0RGV0YWlsc3NxAH4ADM/0s790AAlub3RpZnlBbGxzcQB+AAy6zANPdAAKcHJpbWFyeUtleXNxAH4ADKAWeTZ0AAxpc0luc3RhbmNlT2ZzcQB+AAyyYFJ/dAAUZm9yZWlnbktleSRkZWZhdWx0JDZzcQB+AAxEIj0idAAEc19pZHNxAH4ADL/GHnh0AAY8aW5pdD5zcQB+AAz7IJQHdAAKc2NoZW1hTmFtZXNxAH4ADPbQ3350AAhjcmVhdGVfKnNxAH4ADNp5ceV0AA5zdWJqZWN0RGV0YWlsc3NxAH4ADPsQ0Wh0AAl0YWJsZU5hbWVzcQB+AAy3p5utdAAIdGFibGVUYWdzcQB+AAzGKj44dAACPT1zcQB+AAx2t7MkdAAFY2xvbmVzcQB+AAxsAQZtdAAGdG9Ob2Rlc3EAfgAMTyEYHXQAE2NvbGxlY3RGaWVsZFN5bWJvbHNzcQB+AAxnxPtFdAAGc3ViX2lkc3EAfgAMQ5OenXQAEFRhYmxlRWxlbWVudFR5cGVzcQB+AAxbXhhAdAAGZGVsZXRlc3EAfgAMEPiWeXQABiRpbml0JHNxAH4ADGTrfxF0AARjb3B5c3EAfgAMPUfL43QABmNvbHVtbnNxAH4ADEtKm3F0AAh0b1N0cmluZ3NxAH4ADDOVfuJ0AA9pbmRleCRkZWZhdWx0JDNzcQB+AAwZkIUrdAACIT1zcQB+AAxpTwOVdAAIZ2V0Q2xhc3NzcQB+AAxoRltFdAAOY29weSRkZWZhdWx0JDFzcQB+AAzKAdUqdAAGdXBkYXRlc3EAfgAM0hCS3nQAE3RhYmxlSWRlbnRpdHlTeW1ib2xzcQB+AAwM5/oldAACbmVzcQB+AAxdH+BgdAABT3NxAH4ADMq90Ld0AAJlcXNxAH4ADFmnhkZ0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwjHgm4dAACIyNzcQB+AAwvQM9OdAAIZmluYWxpemVzcQB+AAz9Lz69dAAFaW5kZXhzcQB+AAxBgRs1dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyO7ZYWdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAYY29tLmtub2xkdXMucmVwby5TdWJqZWN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgC0eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCzAHBzcQB+ALhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Am0wACWluaGVyaXRlZHEAfgCbTAAHcGFyZW50c3EAfgCbeHEAfgC8c3EAfgCzAHBzcQB+ALh1cQB+AJYAAAAAc3EAfgCzAHBzcQB+ALh1cQB+AJYAAAAAc3EAfgCzAHBzcQB+ALh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ALt0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ALtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9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
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDXsKM7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAV3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cC+snzV0AAtTdWJTdHVkQ3J1ZHNxAH4ADB7J8gV0AA5nZXRCeUlkTWFwcGluZ3NxAH4ADEBaVVF0AAZub3RpZnlzcQB+AAwCbai6dAAHZ2V0QnlJZHNxAH4ADBTW3SB0AARuYW1lc3EAfgAMmL0KcHQADmdldEJ5SWRTdHVkZW50c3EAfgAMTGT/g3QADWdldEFsbE1hcHBpbmdzcQB+AAwhQxMHdAAEd2FpdHNxAH4ADFu7+wB0AAEqc3EAfgAMlx49FHQADmNvcHkkZGVmYXVsdCQyc3EAfgAMM7mdWHQADSRhc0luc3RhbmNlT2ZzcQB+AAzdB356dAANaW5zZXJ0TWFwcGluZ3NxAH4ADBC6oTN0AAVlbWFpbHNxAH4ADL9CJ5x0AAZnZXRBbGxzcQB+AAzOxxoudAAGaW5zZXJ0c3EAfgAMF5239XQADHByb2R1Y3RBcml0eXNxAH4ADC1MJwR0AAZlcXVhbHNzcQB+AAyUa8kUdAAOU3R1ZGVudERldGFpbHNzcQB+AAxanaNWdAAUZm9yZWlnbktleSRkZWZhdWx0JDVzcQB+AAxWBrB5dAAHaW5kZXhlc3NxAH4ADJk4B9N0AAdTdWJTdHVkc3EAfgAMlv8PwXQADGFzSW5zdGFuY2VPZnNxAH4ADODMTfh0ABB0YWJsZUNvbnN0cmFpbnRzc3EAfgAMnGb50HQACmZvcmVpZ25LZXlzcQB+AAz/9ndddAANdXBkYXRlU3R1ZGVudHNxAH4ADD8Fb+B0AAxzeW5jaHJvbml6ZWRzcQB+AAxbPGu3dAANJGlzSW5zdGFuY2VPZnNxAH4ADCzDnAd0AAllbmNvZGVSZWZzcQB+AAz5yXvcdAALcHJpbWFyeUtleXNzcQB+AAxnA/TddAAJdGFibGVOb2Rlc3EAfgAM/ja+unQAElN1YmplY3RTdHVkZW50cmVwb3NxAH4ADJD+oCF0AAhjYW5FcXVhbHNxAH4ADFoe5FZ0AA10YWJsZVByb3ZpZGVyc3EAfgAMDp1C2nQADXByb2R1Y3RQcmVmaXhzcQB+AAyAcJNwdAALZm9yZWlnbktleXNzcQB+AAzorTLGdAAOU3ViamVjdERldGFpbHNzcQB+AAxXlpSLdAAJbm90aWZ5QWxsc3EAfgAM4u8xYXQACnByaW1hcnlLZXlzcQB+AAzG6IHndAAPc3ViX3N0dWREZXRhaWxzc3EAfgAMl/WKI3QABGtleTFzcQB+AAwO73hWdAAMaXNJbnN0YW5jZU9mc3EAfgAMYTHbBHQAEWdldFN0dWRlbnRTdWJqZWN0c3EAfgAMwxEF4XQAFGZvcmVpZ25LZXkkZGVmYXVsdCQ2c3EAfgAMEM4b5nQABHNfaWRzcQB+AAwevOuIdAAGPGluaXQ+c3EAfgAMpNUhRHQAAmlkc3EAfgAM92w84HQACnNjaGVtYU5hbWVzcQB+AAyUp4p2dAAIY3JlYXRlXypzcQB+AAzo+QnydAAOc3R1ZGVudERldGFpbHNzcQB+AAyZN4medAAOc3ViamVjdERldGFpbHNzcQB+AAz4eOYGdAAJdGFibGVOYW1lc3EAfgAMNu74E3QACHRhYmxlVGFnc3EAfgAMFM9C+3QADWRlbGV0ZU1hcHBpbmdzcQB+AAzHuHwjdAACPT1zcQB+AAyYwe6JdAAEa2V5MnNxAH4ADE45qCx0AAVjbG9uZXNxAH4ADHoUoXB0AAZ0b05vZGVzcQB+AAzOHqZvdAATY29sbGVjdEZpZWxkU3ltYm9sc3NxAH4ADHFQgZF0AAZzdWJfaWRzcQB+AAwxJUyHdAAQVGFibGVFbGVtZW50VHlwZXNxAH4ADFThHH50AAZkZWxldGVzcQB+AAznGI5jdAAGJGluaXQkc3EAfgAMf8zh+3QADmNvcHkkZGVmYXVsdCQzc3EAfgAMY32ycHQABGNvcHlzcQB+AAzZgY8JdAAOU3ViU3R1ZERldGFpbHNzcQB+AAzUFZ0ydAAGY29sdW1uc3EAfgAM31BnzHQACHRvU3RyaW5nc3EAfgAMvDR/vnQAD2luZGV4JGRlZmF1bHQkM3NxAH4ADJTdz0J0AAIhPXNxAH4ADM0B1HV0AAhnZXRDbGFzc3NxAH4ADFobWXh0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADGjP+Yt0AAZ1cGRhdGVzcQB+AAw9K6aWdAANZGVsZXRlU3R1ZGVudHNxAH4ADLXf5cV0ABN0YWJsZUlkZW50aXR5U3ltYm9sc3EAfgAMIY/m1nQAAm5lc3EAfgAMb+tFb3QAB3N0dWRfaWRzcQB+AAzsGyMvdAABT3NxAH4ADJ+psUx0AA1pbnNlcnRTdHVkZW50c3EAfgAMl65op3QADXVwZGF0ZU1hcHBpbmdzcQB+AAw4uAOAdAACZXFzcQB+AAwvGT8ndAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMLABFFXQAAiMjc3EAfgAMjF5XEnQACGZpbmFsaXplc3EAfgAMHCY7DnQABWluZGV4c3EAfgAMKsBvV3QADnByb2R1Y3RFbGVtZW50c3EAfgAMoqTco3QACGhhc2hDb2Rlc3EAfgAMnc6rHXQADWdldEFsbFN0dWRlbnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgDFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAYY29tLmtub2xkdXMucmVwby5TdWJTdHVkdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgDeeHBzcgATeHNidGkuYXB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xAH4BAnEAfgEbcQB+AQdzcQB+APZxAH4BHXNxAH4A+nNxAH4A/XVxAH4BAAAAAAJzcQB+AQJxAH4BBXEAfgEHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAADY29tc3EAfgGEdAAQY29tLmtub2xkdXMucmVwb3NxAH4BhHQAC2NvbS5rbm9sZHVzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTVNnZMXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEovaG9tZS9rbm9sZHVzL1BsYXlBc3NpZ25tZW50Mi9TdHVkZW50LVNsaWNrLURlbW8vdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHWjGRiYtauZoCXb+GRgssBVT+Zu
+external apis:
+0 items
+source infos:
+5 items
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/DbComponent.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/connection/MyDbComponent.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/StudentRepo.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectRepo.scala -> 
+AAAAAAAAAAA=
+/home/knoldus/PlayAssignment2/Student-Slick-Demo/src/main/scala/com/knoldus/repo/SubjectStudentrepo.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU1TZ2TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASi9ob21lL2tub2xkdXMvUGxheUFzc2lnbm1lbnQyL1N0dWRlbnQtU2xpY2stRGVtby90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
